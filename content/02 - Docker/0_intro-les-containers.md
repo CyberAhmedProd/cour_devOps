@@ -19,7 +19,8 @@ weight: 1010
 # Retour sur les technologies de virtualisation
 
 On compare souvent les conteneurs aux machines virtuelles. Mais ce sont de grosses simplifications parce qu'on en a un usage similaire : isoler des programmes dans des "contextes".
-Une chose essentielle à retenir sur la différence technique : **les conteneurs utilisent les mécanismes internes du \_kernel de l'OS **Linux**\_ tandis que les VM tentent de communiquer avec l'OS (quel qu'il soit) pour directement avoir accès au matériel de l'ordinateur.**
+
+  Une chose essentielle à retenir sur la différence technique : **les conteneurs utilisent les mécanismes internes du \_kernel de l'OS **Linux**\_ tandis que les VM tentent de communiquer avec l'OS (quel qu'il soit) pour directement avoir accès au matériel de l'ordinateur.**
 
 <!-- ![](../../images/hyperv-vs-containers.png) -->
 
@@ -54,7 +55,7 @@ On revient à notre définition d'un **conteneur** :
 > 1 container
 > = 1 groupe de _process_ Linux
 >
-> - des _namespaces_ (séparation entre ces groups)
+> - des _namespaces_
 > - des _cgroups_ (quota en ressources matérielles)
 
 
