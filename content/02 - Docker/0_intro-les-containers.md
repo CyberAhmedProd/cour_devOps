@@ -56,27 +56,6 @@ On revient à notre définition d'un **conteneur** :
 > - des _namespaces_ (séparation entre ces groups)
 > - des _cgroups_ (quota en ressources matérielles)
 
----
-
-# LXC (LinuX Containers)
-
-- En 2008 démarre le projet LXC qui chercher à rassembler :
-
-  - les **cgroups**
-  - le **chroot**
-  - les **namespaces**.
-
-- Originellement, Docker était basé sur **LXC**. Il a depuis développé son propre assemblage de ces 3 mécanismes.
-
----
-
-# Docker et LXC
-
-- En 2013, Docker commence à proposer une meilleure finition et une interface simple qui facilite l'utilisation des conteneurs **LXC**.
-- Puis il propose aussi son cloud, le **Docker Hub** pour faciliter la gestion d'images toutes faites de conteneurs.
-- Au fur et à mesure, Docker abandonne le code de **LXC** (mais continue d'utiliser le **chroot**, les **cgroups** et **namespaces**).
-
-- Le code de base de Docker (notamment **runC**) est open source : l'**Open Container Initiative** vise à standardiser et rendre robuste l'utilisation de containers.
 
 ---
 
