@@ -30,6 +30,7 @@ Une chose essentielle à retenir sur la différence technique : **les conteneurs
   - un processeur, mémoire, appels systèmes, carte réseau, carte graphique, etc.
 
 - **conteneur** : un découpage dans Linux pour séparer des ressources (accès à des dossiers spécifiques sur le disque, accès réseau).
+                  Un conteneur Linux est un processus ou un ensemble de processus isolés du reste du système, tout en étant légers.
 
 Les deux technologies peuvent utiliser un système de quotas pour l'accès aux ressources matérielles (accès en lecture/écriture sur le disque, sollicitation de la carte réseau, du processeur)
 
